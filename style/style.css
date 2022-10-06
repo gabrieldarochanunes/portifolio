@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family:'Roboto Mono', monospace;
+    color: #999;
+    background-color: rgb(30, 30, 30);
+}
+
+/*-- header --*/
+header{display: flex;
+    margin: 2rem;
+    background-color: rgb(70, 70, 70);
+    padding: 1rem;
+    border-radius: 10px;
+    height:auto;
+    filter: drop-shadow(0px 4px 4px #000)
+}
+
+h1{
+    width: fit-content;
+    color: rgb(185, 135, 8);
+}
+
+.logo{
+    float: left;
+    width: fit-content;
+    height: 50%;
+    border-radius: 50px;
+}
+
+.header p{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 25px;
+    width: fit-content;
+    justify-content: center;
+    text-align: right;
+    font-size: 1.5rem;
+    margin-right: 20px;
+}
+
+/*-- fechamento header --*/
+
+/*-- corpo --*/
+
+.corpo{
+    background-color: rgb(51, 51, 51);
+    margin: 2rem;
+    padding: 4rem;
+    border-radius: 10px;
+    height: auto;
+}
+
+.card{
+    background-color: rgb(80, 80, 80);
+    margin: 1rem;
+    width: auto;
+    float: left;
+    text-align: left;
+    padding: 1rem;
+    border-radius: 4px;
+    filter:drop-shadow(4px 0px 4px #000)
+}
+
+.card p{
+width: 20rem;
+height: 7.5rem;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 25px;
+text-align: center;
+}
+
+.imagem__card{
+    height:auto;
+    width: 20rem;
+    margin-bottom: 16px;
+}
+
+.clear{
+    clear: left;
+}
+
+a{
+    color: black;
+    background-color: #f7b600;
+    padding: 3px;
+    float: right;
+    text-decoration: none;
+    border-radius: 2px;
+    filter: drop-shadow(0px 4px 4px #000)
+}
+
+a:link, a:visited{
+    color: #000;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color: #000;
+    padding: 8px 12px;
+}
+
+a:hover{
+    color: #f7b600;
+    background: #fff;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navlist {
+    display: flex;
+    list-style: none;
+}
+.navlist li{
+    margin: 5px;
+    float: left;
+}
+#P{
+    font-size: 30px;
+}
+/*-- fechamento corpo--*/
+
+footer{
+    background-color: rgb(80, 80, 80);
+    width: auto;
+    height: 15vh;
+    text-align: center;
+    color: #f7b600;
+}

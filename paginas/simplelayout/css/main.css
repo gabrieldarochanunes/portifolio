@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 88.4rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 3.2rem;
+}
+.logo{
+    font-weight: 700;
+    font-size: 2.4rem;
+    color: #FFFFFF;
+    font-family: 'Playfair Display';
+}
+
+.logo strong{
+    color: #F0B37A;
+}
+
+.lista__menu{
+    display: flex;
+    list-style: none;
+    gap: 3.2rem;
+    
+}
+
+.lista__menu a{
+    font-size: 1.8rem;
+    text-decoration: none;
+    font-family: Lato;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.hero{
+    height: 80vh;
+    width: 100%;
+    background-color: #45649a;
+    background-image: url(../asstes/textura.jpg);
+    background-blend-mode: multiply;
+    background-size: contain;
+    box-shadow: 0px 4px 4px rgba(155, 150, 150, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+section h3{
+    font-family: 'Lato';
+    font-weight: 900;
+    font-size: 1.4rem;
+    letter-spacing: 0.32rem;
+    text-transform: uppercase;
+    color: #213048;
+    margin-bottom: 1.6rem;
+}
+section h1{
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 4.8rem;
+    line-height: 6.4rem;
+    color: #F8FBFF;
+    margin-bottom: 6.4rem;
+}
+
+.imagem__colunas__conteudo strong {
+    color: #F0B37A;
+}
+
+.icone{
+    
+animation: animacao-icone 700ms ease-in-out infinite alternate;
+
+}
+
+.texto__colunas{
+height: 80vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.texto__colunas__cabecalho{
+
+    text-align: center;
+    max-width: 41.9rem;
+    margin: auto;
+    
+}
+
+h2{
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 3.8rem;
+    color: #212F49;
+}
+
+.texto__colunas__cabecalho p{
+    font-size: 2.2rem;
+    margin-top: 1rem;    
+}
+.texto__colunas__conteudo{
+    display: flex;
+    gap: 15.4rem;
+    margin-top: 6.0rem;
+}
+
+.texto__colunas__conteudo p{
+    max-width: 36.8rem;
+
+}
+
+p{
+    
+font-family: 'Lato';
+font-weight: 400;
+font-size: 2.0rem;
+line-height: 145.6%;
+color: #212F49;
+
+}
+.imagem__colunas{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #213048;
+
+}
+.imagem__colunas article{
+    display: flex;
+    width: 89rem;
+    justify-content: space-between;
+}
+.imagem__colunas__conteudo h2{
+    color: #FFFFFF;
+}
+
+.imagem__colunas__conteudo p{
+    width: 36.9rem;
+    margin-block: 3rem;
+    color: #FFFFFF;
+}
+
+.botao{
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: #F0B37A;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    
+    
+}
+
+.botao::after{
+    content: "";
+    height:2rem;
+    width:1rem;
+    background-image: url(../assets/seta\ primeiro\ link.svg);
+    background-repeat: no-repeat;
+    transform: translateY(.2rem);
+    
+
+}
+
+
+
+.branco{
+    background-color: #FFFFFF;
+
+}
+.branco p,
+.branco h2{
+    color: #213048;
+}
+
+.branco img{
+    order: 1;
+}
+footer {   
+    border-top: .1rem solid #dbe0e9;
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: #213048;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    padding-block: 3rem;
+    max-width: 89rem;
+    margin: auto; 
+    
+}
+
+footer .botao::after{
+    transform: rotate(-90deg);
+
+
+}
+
+@keyframes animacao-icone{
+
+    to{
+        transform:translateY(-1rem)
+    }
+
+    from{
+        transform: translateY(1rem);
+    }
+}
+

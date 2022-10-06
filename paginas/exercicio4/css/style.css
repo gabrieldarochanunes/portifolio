@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding-left: 150px;
+    padding-right: ;
+}
+article{
+width: 840px;
+margin: 112px auto;
+}
+h2{
+font-size: 48px;
+}
+h3{
+
+}
+p{
+    font-size: 20px;
+    color: #322d3c;
+    line-height: 32px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 32px;
+    font-weight: 400;
+}
+img{
+margin-bottom: 64px;
+max-width: 100%;
+}

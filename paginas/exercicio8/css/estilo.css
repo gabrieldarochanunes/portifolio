@@ -1,0 +1,121 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.container{    
+    width: fit-content;
+    margin: auto;    
+}
+h2{
+    font-family: 'Merriweather',serif;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #323232;
+    max-width: 425px;
+    font-weight: 400;
+    margin: 75px auto 53px auto;
+}
+h2 strong{
+    color: #292929;
+}
+
+.lista{
+    display: flex;
+    list-style: none;
+    gap: 83px;
+}
+.item__lista{
+    padding: 32px;
+    background-color: rgba(83, 87,190, 0.12);
+    border-radius: 12px;
+    max-width: 343px;
+}
+
+li.especial{
+    background-color: #5267D7;
+    color: white;
+}
+
+.item__lista header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 46px;
+}
+.item__lista header h3{
+    font-family: 'Merriweather',serif;
+    font-weight: 700;
+    font-size: 32px;
+    position: relative;
+}
+.item__lista header h3::before{
+content: "";
+width: 1ch;
+height: 3px;
+background-color: #485BC0;
+display: block;
+position: absolute;
+bottom: 0;
+}
+.item__lista.especial header h3::before{
+    background-color: white;
+}
+.cabecalho__preco{
+    text-align: right;
+}
+.cabecalho__preco span{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #747474;
+}
+span.especial{
+    color: white;
+}
+.cabecalho__preco h4{
+    
+    font-family: 'Open Sans',sans-serif;    
+    font-weight: 400;
+    font-size: 24px;   
+}
+.item__lista h5{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+.item__lista__beneficios{
+    list-style-image: url(../assets/done.svg);
+    margin-bottom: 92px;
+
+}
+.item__lista__beneficios.especial{
+list-style-image: url(../assets/done-branco.svg);
+
+}
+.item__beneficios{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 12px;
+}
+.botao{
+    display: block;
+    background-color: #485BC0;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 12px;
+    color: #FFFFFF;
+    border-radius: 12px;
+    text-decoration: none;
+    text-align: center;
+    width: fit-content;
+    padding: 11px 20px;
+    margin: auto;
+}
+
+a.especial{
+    background-color: white;
+    color: black;
+}

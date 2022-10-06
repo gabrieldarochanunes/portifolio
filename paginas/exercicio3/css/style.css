@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #242e31;
+}
+
+div{
+    width: 922px;
+    margin: 220px auto;
+}
+
+article{
+    width: 551px;
+    margin-bottom: 96px;
+}
+
+h2{
+    font-size: 40px;
+    color: #f5d9a5;
+    font-weight: 700;
+    font-family: 'Libre Franklin', serif;
+    margin-bottom: 16px;
+}
+
+p{
+    font-size: 20px;
+    color: #eadfca;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 32px;
+}
+
+.artdif{
+    text-align: right;
+    margin-left: auto;
+}
